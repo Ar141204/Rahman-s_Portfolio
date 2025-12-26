@@ -77,13 +77,29 @@ export const INTERESTS: string[] = [
 
 
 export const EXPERIENCES: Experience[] = [
+    {
+    role: 'Artificial Intelligence Intern',
+    company: 'Kutty Pixel Inc.',
+    period: 'Sept 2025 - Present',
+    description: ['Leading the AI division at an early-stage startup, architecting core AI infrastructure, automation workflows, and deployment-ready systems.'],
+    type: 'Internship',
+    location: 'Canada, Remote',
+  },
+    {
+    role: 'Chief Advisor',
+    company: 'Blue Screen Programming Club, Hindustan University',
+    period: 'Sept 2025 - Present',
+    description: ['Providing technical mentorship and strategic guidance for student-led programming initiatives.'],
+    type: 'Part-Time',
+    location: 'Chennai, Hybrid',
+  },
   {
     role: 'Student Intern',
     company: 'Tamil Nadu Newsprint and Papers Limited',
     period: 'Dec 2024 - Jan 2025',
     description: ['Focused on SQL database management, ERP system support, and optimizing IT infrastructure.'],
     type: 'Internship',
-    location: 'Onsite',
+    location: 'Karur, Onsite',
   },
   {
     role: 'Cybersecurity Intern',
@@ -108,7 +124,7 @@ export const EDUCATION: Education[] = [
     degree: 'B.Tech in Computer Science and Engineering',
     institution: 'Hindustan Institute of Technology and Science',
     period: '2022 – 2026',
-    details: ['Current CGPA: 8.33'],
+    details: ['Current CGPA: 8.4'],
   },
 ];
 
@@ -142,11 +158,12 @@ export const PROJECTS: Project[] = [
 export const SKILLS: Skills = {
     languages: ['Python', 'JavaScript', 'TypeScript', 'SQL', 'HTML/CSS'],
     frameworks_libraries: ['React', 'Node.js', 'Express.js', 'Next.js', 'Flask', 'Django', 'Pandas', 'Tailwind CSS'],
-    databases: ['Supabase', 'MongoDB', 'SQLite', 'PostgreSQL'],
-    tools: ['VScode', 'Cursor', 'Windsurf', 'Git/GitHub', 'Docker', 'Linux', 'Azure', 'AWS', 'Jupyter', 'Figma']
+    databases: ['Supabase', 'MongoDB', 'SQLite'],
+    tools: ['VScode', 'Cursor', 'Windsurf', 'Antigravity', 'AI Studio', 'Git/GitHub', 'Docker', 'Linux', 'Azure', 'AWS', 'Jupyter', 'Figma', 'Framer', 'N8N', 'Make']
 };
 
 export const CERTIFICATIONS: Certification[] = [
+    { name: 'Intellithon Runner-Up 2025', issuer: 'Hindustan Institute of Technology and Science (DISC)', url: 'https://drive.google.com/file/d/1vwDWzs_5dG59jkc5Kb2jvuLYsQq34jW9/view?usp=drivesdk' },
     { name: 'Onsite Internship', issuer: 'Tamil Nadu Newsprint and Papers Limited', url: 'https://drive.google.com/file/d/1bj3kiNKBjclYYPJApwCKSbgrfZwlmi02/view?usp=drive_link' },
     { name: 'Software Engineering Job Simulation', issuer: 'JPMorgan Chase & Co (Forage)', url: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Sj7temL583QAYpHXD/E6McHJDKsQYh79moz_Sj7temL583QAYpHXD_YcFKZrGtw2DWuqgyp_1737791970596_completion_certificate.pdf' },
     { name: 'Cybersecurity Internship (AICTE)', issuer: 'Edunet Foundation', url: 'https://onedrive.live.com/?redeem=aHR0cHM6Ly8xZHJ2Lm1zL2IvYy81ZDdlMmU0MmYzZWRhOTU4L0VjeG9Icl9NRHZkSW52UWVrSkJHMjN3QlV0RWFJMG82TlVFZW9uOFFiMzBXV2c&cid=5D7E2E42F3EDA958&id=5D7E2E42F3EDA958%21sbf1e68cc0ecc48f79ef41e909046db7c&parId=root&o=OneUp' },
